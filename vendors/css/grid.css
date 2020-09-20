@@ -27,7 +27,7 @@
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 1.6%;
+	margin: 1% 0 1% 0;
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
@@ -51,7 +51,7 @@
 }
 
 .span-1-of-2 {
-	width: 49.2%;
+	width: 45.2%;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
@@ -100,19 +100,19 @@
 
 	
 .span-4-of-4 {
-	width: 100%; 
+	width: 92%; 
 }
 
 .span-3-of-4 {
-	width: 74.6%; 
+	width: 69%; 
 }
 
 .span-2-of-4 {
-	width: 49.2%; 
+	width: 46%; 
 }
 
 .span-1-of-4 {
-	width: 23.8%; 
+	width: 23%; 
 }
 
 

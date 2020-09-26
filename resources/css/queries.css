@@ -1,0 +1,55 @@
+/* Small phones : 0px to 480px*/
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Tablets : 481px to 768px */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Tablet : portrait mode to landscape mode : 769px to 1024px */
+@media only screen and (max-width: 1024px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box { margin-top: 10px; }
+    .step-box:last-child { margin-top: 10px; }
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 80px; }
+
+    .app-screen { width: 50%; }
+
+    .icon-small { 
+        width: 17px; 
+        margin-right: 10px;
+    }
+
+    .city-feature { font-size: 90%; }
+
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plan-price { font-size: 250%; }
+    .contact-form { width: 80%; }
+}    
+
+/* Any display between 1024px and 1200px */
+@media only screen and (max-wdith: 1200px) {
+    .hero-text-box {
+        position: absolute;
+        width: 100%;;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
